@@ -11,6 +11,11 @@
     gap: var(--gap, 1rem);
 }
 
+.flow > * + * {
+    margin-top: 1rem;
+    outline: 1px solid red;
+}
+
 .container {
     padding-inline: 0 2em;
     margin-inline: auto;
