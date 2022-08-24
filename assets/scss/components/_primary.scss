@@ -10,3 +10,25 @@
     white-space: nowrap;
     border: 0;
 }
+
+.home {
+    background: url(../img/home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 35rem) {
+    .home {
+        background-image: url(../img/home/background-home-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 45rem) {
+    .home {
+        background-image: url(../img/home/background-home-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

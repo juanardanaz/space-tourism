@@ -97,22 +97,27 @@ img {
 .primary-logo {
   margin: 2rem;
 }
-
 .primary-header {
   align-items: center;
   justify-content: space-between;
 }
-
-.mobile-nav-toggle {
-  display: none;
-}
-
 .primary-navigation {
   list-style: none;
   margin: 0;
   padding: 0;
   background-color: hsla(0deg, 0%, 0%, 0.5);
   backdrop-filter: blur(1rem); /* Blur Effect */
+}
+.primary-nav-link {
+  color: var(--clr-white);
+}
+.primary-navigation a > [aria-hidden=true] {
+  font-weight: 700;
+  margin-inline-end: 0.75em;
+}
+
+.mobile-nav-toggle {
+  display: none;
 }
 
 @supports (backdrop-filter: blur(1rem)) { /* Por si el navegador no admite este efecto */
@@ -121,11 +126,6 @@ img {
     backdrop-filter: blur(1rem); /* Blur Effect */
   }
 }
-.primary-navigation a > [aria-hidden=true] {
-  font-weight: 700;
-  margin-inline-end: 0.75em;
-}
-
 @media (max-width: 35em) {
   .primary-navigation {
     --gap: 2em;
@@ -152,6 +152,7 @@ img {
     aspect-ratio: 1;
     top: 2rem;
     right: 2rem;
+    transform: translateY(15px);
   }
   .mobile-nav-toggle[aria-expanded=true] {
     background-image: url(../img/shared/icon-close.svg);
@@ -182,4 +183,24 @@ img {
   border: 0;
 }
 
+.home {
+  background: url(../img/home/background-home-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 35rem) {
+  .home {
+    background-image: url(../img/home/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 45rem) {
+  .home {
+    background-image: url(../img/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 /* ========= MEDIAQUERIES ========= */

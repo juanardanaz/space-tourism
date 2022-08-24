@@ -7,6 +7,7 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -26,6 +27,10 @@ Users should be able to:
 
 ![](./assets/img/screenshot.jpg)
 
+### Links
+
+- Solution URL: [https://github.com/juanardanaz/space-tourism](https://your-solution-url.com)
+- Live Site URL: [https://juanardanaz.github.io/space-tourism/](https://your-live-site-url.com)
 
 ## My process
 
