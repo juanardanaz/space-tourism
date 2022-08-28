@@ -1,5 +1,16 @@
 /* ========= LAYOUT ========= */
+.section {
+    padding: 1rem 1rem 2rem;
+}
+
 .flex {
     display: flex;
     gap: var(--gap, 1rem);
+}
+
+.container {
+    max-width: 968px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+    margin-top: var(--mb-1);
 }

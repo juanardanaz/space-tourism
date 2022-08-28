@@ -21,12 +21,15 @@
 
     &-nav-link {
         color: var(--clr-white);
+        font-family: var(--ff-sans-cond);
+        text-transform: uppercase;
+        letter-spacing: 2.7px;
     }
 
     &-navigation a > [aria-hidden='true'] {
         font-weight: 700;
         margin-inline-end: 0.75em;
-    } 
+    }
 }
 
 .mobile-nav-toggle {

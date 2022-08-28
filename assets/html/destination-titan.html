@@ -1,37 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--=============== DESCRIPTION ===============-->
+        <meta name="description" content="This is a static web page, for a space tourism service practise">
+        <!--=============== FAVICON ===============-->
+        <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+        <title>Space Tourism - Destination</title>
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+<body class="destination">
+    <!--=============== HEADER ===============-->
+    <header class="primary-header flex">
+        <div>
+            <a href="../../index.html">
+                <img src="../img/shared/logo.svg" alt="space tourism logo" class="primary-logo">
+            </a>
+        </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
+        <button aria-controls="primary-navigation" aria-expanded="false" class="mobile-nav-toggle">
+            <span class="sr-only">Menu</span>
+        </button>
+        <!--=============== NAV ===============-->
+        <nav>
+            <ul class="primary-navigation flex" id="primary-navigation" data-visible="false">
+                <li class="active">
+                    <a href="../../index.html" class="primary-nav-link">
+                        <span aria-hidden="true">00</span>Home
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/destination-moon.html" class="primary-nav-link">
+                        <span aria-hidden="true">01</span>Destination
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/crew-commander.html" class="primary-nav-link">
+                        <span aria-hidden="true">02</span>Crew
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/technology-spaceport.html" class="primary-nav-link">
+                        <span aria-hidden="true">03</span>Technology
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== DESTINATION - TITAN ===============-->
+        <section class="destination section">
+            <div class="destination-container">
+                <h2 class="destination-subheading"><span class="destination-subheading-number">01</span> Pick your destination</h2>
 
-  01 Pick your destination
+                <div class="destination-information">
+                    <img src="../img/destination/image-titan.png" alt="titan" class="destination-img">
 
-  Moon
-  Mars
-  Europa
-  Titan
+                    <div class="destination-data">
+                        <ul class="destination-navigation flex">
+                            <li>
+                                <a href="../html/destination-moon.html" class="destination-nav-link">Moon</a>
+                            </li>
+                            <li>
+                                <a href="../html/destination-mars.html" class="destination-nav-link">Mars</a>
+                            </li>
+                            <li>
+                                <a href="../html/destination-europa.html" class="destination-nav-link">Europa</a>
+                            </li>
+                            <li>
+                                <a href="../html/destination-titan.html" class="destination-nav-link">Titan</a>
+                            </li>
+                        </ul>
 
-  Titan
+                        <h3 class="destination-title">Titan</h3>
 
-  The only moon known to have a dense atmosphere other than Earth, Titan 
-  is a home away from home (just a few hundred degrees colder!). As a 
-  bonus, you get striking views of the Rings of Saturn.
+                        <p class="destination-description">The only moon known to have a dense atmosphere other than Earth, Titan 
+                            is a home away from home (just a few hundred degrees colder!). As a 
+                            bonus, you get striking views of the Rings of Saturn.
+                        </p>
+                    </div>
 
-  Avg. distance
-  1.6 bil. km
+                    <div class="destination-line"></div>
 
-  Est. travel time
-  7 years
+                    <div class="destination-numbers">
+                        <div class="destination-numbers-moon">
+                            <p class="destination-numbers-description">Avg. Distance</p>
+                            <p class="destination-numbers-distance">1.6 bil. km</p>
+                        </div>
+                        <div class="destination-numbers-moon">
+                            <p class="destination-numbers-description">Est. Travel Time</p>
+                            <p class="destination-numbers-time">7 years</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== NAVBAR JS ===============-->
+    <script src="../script/navbar.js"></script>
 </body>
 </html>

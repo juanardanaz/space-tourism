@@ -48,14 +48,14 @@
     /* ========= COLORS ========= */
     /* ========= Primary ========= */
     --clr-dark: hsl(230, 35%, 7%);
+    --clr-grey: hsl(231, 15%, 26%);
     --clr-light: hsl(231, 77%, 90%);
     --clr-white: hsl(0, 0%, 100%);
 
     /* ========= FONT and TYPOGRAPHY ========= */
-    --ff-serif: 'Bellefair', serif;
-    --ff-sans-cond: 'Barlow Condensed', sans-serif;
-    --ff-sans-normal: 'Barlow', sans-serif;
-
+    --ff-serif: 'Bellefair';
+    --ff-sans-cond: 'Barlow Condensed';
+    --ff-sans-normal: 'Barlow';
 
     /* ========= Font sizes ========= */
     --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
@@ -66,4 +66,11 @@
     --fs-400: 1.125rem;
     --fs-300: 1rem;
     --fs-200: 0.875rem;
+
+     /* ========= Margenes ========= */
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 2.5rem;
+    --mb-2: 2rem;
 }

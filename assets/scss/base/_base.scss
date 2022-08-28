@@ -12,9 +12,13 @@ html {
 body {
     background-color: var(--clr-dark);
     color: var(--clr-white);
-    font-family: var(--ff-sans-normal);
     font-size: var(--font-normal);
     overflow-x: hidden;
+    transition: .2s ease all;
+}
+
+p {
+    font-family: var(--ff-sans-normal);
 }
 
 a {
