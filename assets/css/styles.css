@@ -39,7 +39,7 @@
   /* ========= Primary ========= */
   --clr-dark: hsl(230, 35%, 7%);
   --clr-grey: hsl(231, 15%, 26%);
-  --clr-light: hsl(231, 77%, 90%);
+  --clr-light: hsl(231, 76%, 90%);
   --clr-white: hsl(0, 0%, 100%);
   /* ========= FONT and TYPOGRAPHY ========= */
   --ff-serif: "Bellefair";
@@ -280,6 +280,90 @@ img {
     background-size: cover;
   }
 }
+/* ========= CREW ========= */
+.crew {
+  background: url(../img/crew/background-crew-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Active item work*/
+}
+.crew-subheading {
+  font-family: var(--ff-sans-cond);
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.crew-subheading-number {
+  font-family: var(--ff-sans-cond);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--clr-grey);
+  margin-inline-end: 0.75em;
+}
+.crew-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.crew-img {
+  width: 50%;
+  height: auto;
+  transform: translateY(4px);
+}
+.crew-line {
+  width: 327px;
+  height: 2px;
+  background-color: var(--clr-grey);
+}
+.crew-navigation-list {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+.crew-swiper-button {
+  filter: invert(80%) sepia(16%) saturate(447%) hue-rotate(196deg) brightness(106%) contrast(95%);
+  opacity: 17.44%;
+}
+.crew-swiper-button:hover {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+  opacity: 100%;
+}
+.crew-active {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+  opacity: 100%;
+}
+.crew-profile {
+  color: var(--clr-grey);
+  text-transform: uppercase;
+  font-family: var(--ff-serif);
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+.crew-name {
+  font-family: var(--ff-serif);
+  color: var(--clr-white);
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+.crew-description {
+  color: var(--clr-light);
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.crew-swiper-button {
+  width: 10px;
+  height: 10px;
+  color: var(--clr-light);
+}
+
 /* ========= DESTINATION ========= */
 .destination {
   background: url(../img/destination/background-destination-mobile.jpg);
@@ -299,6 +383,7 @@ img {
   font-size: 16px;
   letter-spacing: 2.7px;
   margin-bottom: 2rem;
+  text-align: center;
 }
 .destination-subheading-number {
   font-family: var(--ff-sans-cond);
@@ -306,6 +391,11 @@ img {
   font-size: 16px;
   color: var(--clr-grey);
   margin-inline-end: 0.75em;
+}
+.destination-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .destination-img {
   width: 50%;
@@ -331,20 +421,8 @@ img {
   color: var(--clr-white);
   cursor: pointer;
   text-decoration-line: underline;
-}
-.destination-nav-link:after {
-  content: "";
-  position: absolute;
-  height: 3px;
-  background-color: var(--clr-white);
-  width: 0;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-}
-.destination-nav-link:hover:after {
-  width: 100%;
+  text-underline-offset: 10px;
+  height: 10px;
 }
 .destination-title {
   font-family: var(--ff-serif);
