@@ -1,0 +1,96 @@
+/* ========= TECHNOLOGY ========= */
+.technology {
+    &-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: center;
+        z-index: -1;
+    }
+
+    &-subheading {
+        font-family: var(--ff-sans-cond);
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 2.7px;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    &-subheading-number {
+        font-family: var(--ff-sans-cond);
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--clr-white);
+        margin-inline-end: 0.75em;
+        opacity: 25%;
+    }
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    &-numbers-container {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    &-numbers-circle {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        border: 1px solid var(--clr-grey);
+        color: var(--clr-white);
+        text-align: center;
+        font-family: var(--ff-serif);
+    }
+
+    &-numbers-circle:hover {
+        border: 1px solid var(--clr-white);
+        cursor: pointer;
+    }
+
+    /* Active Item Technology*/
+    &-active {
+        border: 1px solid var(--clr-white);
+        color: var(--clr-dark);
+        background-color: var(--clr-white);
+    }
+
+    &-info {
+        margin-top: 2rem;
+    }
+
+    &-terminology {
+        color: var(--clr-light);
+        font-size: 13px;
+        letter-spacing: 2.36px;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+
+    &-title {
+        font-family: var(--ff-serif);
+        color: var(--clr-white);
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: 100;
+        margin-bottom: 1rem;
+    }
+
+    &-description {
+        color: var(--clr-light);
+        font-size: 15px;
+        font-family: var(--ff-sans-normal);
+        line-height: 25px;
+    }
+}
