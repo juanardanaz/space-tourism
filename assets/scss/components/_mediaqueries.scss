@@ -1,11 +1,185 @@
 /* ========= MEDIAQUERIES ========= */
 /* For medium devices */
 @media screen and (min-width: 576px) {
+    .primary {
+        &-container {
+            position: relative;
+            top: 2rem;
+        }
 
+        &-subheading {
+            font-size: 20px;
+        }
+
+        &-title {
+            font-size: 120px;
+        }
+
+        &-description {
+            max-width: 26rem;
+            font-size: 16px;
+        }
+
+        &-button {
+            width: 200px;
+            height: 200px;
+        }
+    }
 }
 
 
 @media screen and (min-width: 768px) {
+    .primary {
+        &-container {
+            top: 5rem;
+            gap: 3rem;
+        }
+
+        &-title {
+            font-size: 150px;
+        }
+
+        &-description {
+            max-width: 27.5rem;
+        }
+
+        &-button-container {
+            padding: 4rem;
+        }
+
+        &-nav-link:hover {
+            border-bottom-style: solid;
+            padding-bottom: 30px;
+            border-bottom-width: 3.1px;
+            width: fit-content;
+        }
+    }
+
+    .destination {
+        &-subheading {
+            text-align: left;
+            font-size: 20px;
+            margin-bottom: 2.5rem;
+            margin-left: 1rem;
+        }
+
+        &-subheading-number {
+            font-size: 20px;
+        }
+
+        &-information {
+            gap: 1rem;
+        }
+
+        &-nav-link {
+            font-size: 16px;
+        }
+
+        &-title {
+            font-size: 80px;
+        }
+
+        &-description {
+            font-size: 16px;
+            max-width: 35rem;
+        }
+
+        &-numbers {
+            flex-direction: row;
+            gap: 4rem;
+        }
+
+        &-line {
+            width: 573px;
+            height: 1px;
+        }
+    }
+
+    .crew {
+        &-subheading {
+            text-align: left;
+            font-size: 20px;
+            margin-bottom: 3rem;
+            margin-left: 1rem;
+        }
+
+        &-subheading-number {
+            font-size: 20px;
+        }
+
+        &-container {
+            flex-direction: column-reverse;
+            gap: 1rem;
+        }
+
+        &-photo {
+            position: absolute;
+            bottom: 0;
+        }
+
+        &-img {
+            width: 83%;
+        }
+
+        &-line {
+            display: none;
+        }
+
+        &-navigation-list {
+            margin-top: 1.2rem;
+        }
+
+        &-profile {
+            font-size: 24px;
+        }
+
+        &-name {
+            font-size: 40px;
+        }
+
+        &-description {
+            font-size: 16px;
+            max-width: 32rem;
+        }
+    }
+
+    .technology {
+        &-subheading {
+            text-align: left;
+            font-size: 20px;
+            margin-bottom: 3rem;
+            margin-left: 1rem;
+        }
+
+        &-subheading-number {
+            font-size: 20px;
+        }
+
+        &-container {
+            gap: 1rem;
+        }
+
+        &-numbers-circle {
+            width: 58px;
+            height: 58px;
+            padding: 14px;
+            font-size: 24px;
+        }
+
+        &-terminology {
+            font-size: 16px;
+        }
+
+        &-title {
+            font-size: 40px;
+        }
+
+        &-description {
+            font-size: 16px;
+            line-height: 28px;
+            max-width: 27.5rem;
+        }
+    }
 
 }
 

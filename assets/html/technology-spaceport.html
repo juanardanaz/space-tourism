@@ -54,7 +54,11 @@
     <main class="main">
         <!--=============== TECHNOLOGY - SPACEPORT ===============-->
         <section class="technology section">
-            <img src="../img/technology/background-technology-mobile.jpg" alt="space background" class="technology-bg">
+            <picture>
+                <source media="(min-width: 992px)" srcset="../img/technology/background-technology-desktop.jpg">
+                <source media="(min-width: 768px)" srcset="../img/technology/background-technology-tablet.jpg">
+                <img src="../img/technology/background-technology-mobile.jpg" alt="space background" class="technology-bg">
+            </picture>
 
             <h2 class="technology-subheading"><span class="technology-subheading-number">03</span>Space launch 101</h2>
 

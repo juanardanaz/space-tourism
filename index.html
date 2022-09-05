@@ -55,7 +55,12 @@
     <main class="main">
         <!--=============== PRIMARY-HOME ===============-->
         <section class="primary section">
-            <img src="./assets/img/home/background-home-mobile.jpg" alt="space background" class="primary-bg">
+            <picture>
+                <source media="(min-width: 992px)" srcset="./assets/img/home/background-home-desktop.jpg">
+                <source media="(min-width: 768px)" srcset="./assets/img/home/background-home-tablet.jpg">
+                <img src="./assets/img/home/background-home-mobile.jpg" alt="space background" class="primary-bg">
+            </picture>
+
             <div class="primary-container">
 
                 <div class="primary-container-data">

@@ -18,7 +18,6 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        object-fit: cover;
         object-position: center;
         z-index: -1;
     }
@@ -42,7 +41,7 @@
     &-title {
         color: var(--clr-white);
         font-weight: 100;
-        font-size: 80px;
+        font-size: 90px;
         font-family: var(--ff-serif);
         text-transform: uppercase;
         margin-bottom: 1rem;
@@ -82,19 +81,3 @@
 @keyframes pulse {
     0% { box-shadow: 0 0 0 0 var(--clr-light); }
 }
-
-// @media (min-width: 35rem) {
-//     .home {
-//         background-image: url(../img/home/background-home-tablet.jpg);
-//         background-repeat: no-repeat;
-//         background-size: cover;
-//     }
-// }
-
-// @media (min-width: 45rem) {
-//     .home {
-//         background-image: url(../img/home/background-home-desktop.jpg);
-//         background-repeat: no-repeat;
-//         background-size: cover;
-//     }
-// }

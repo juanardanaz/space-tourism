@@ -54,7 +54,11 @@
     <main class="main">
         <!--=============== CREW ===============-->
         <section class="section">
-            <img src="../img/crew/background-crew-mobile.jpg" alt="space background" class="crew-bg">
+            <picture>
+                <source media="(min-width: 992px)" srcset="../img/crew/background-crew-desktop.jpg">
+                <source media="(min-width: 768px)" srcset="../img/crew/background-crew-tablet.jpg">
+                <img src="../img/crew/background-crew-mobile.jpg" alt="space background" class="crew-bg">
+            </picture>
 
             <h2 class="crew-subheading"> <span class="crew-subheading-number">02</span>Meet your crew</h2>
 

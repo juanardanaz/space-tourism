@@ -54,7 +54,11 @@
     <main class="main">
         <!--=============== DESTINATION - MARS ===============-->
         <section class="section">
-            <img src="../img/destination/background-destination-mobile.jpg" alt="space background" class="destination-bg">
+            <picture>
+                <source media="(min-width: 992px)" srcset="../img/destination/background-destination-desktop.jpg">
+                <source media="(min-width: 768px)" srcset="../img/destination/background-destination-tablet.jpg">
+                <img src="../img/destination/background-destination-mobile.jpg" alt="space background" class="destination-bg">
+            </picture>
 
             <h2 class="destination-subheading"><span class="destination-subheading-number">01</span>Pick your destination</h2>
 

@@ -40,7 +40,7 @@
     &-numbers-container {
         display: flex;
         gap: 1rem;
-        margin-top: 2rem;
+        padding-top: 2rem;
     }
 
     &-numbers-circle {
@@ -67,7 +67,7 @@
     }
 
     &-info {
-        margin-top: 2rem;
+        padding-top: 2rem;
     }
 
     &-terminology {
@@ -75,7 +75,7 @@
         font-size: 13px;
         letter-spacing: 2.36px;
         text-transform: uppercase;
-        margin-bottom: 0.5rem;
+        padding-bottom: 0.5rem;
     }
 
     &-title {
@@ -84,7 +84,7 @@
         text-transform: uppercase;
         font-size: 28px;
         font-weight: 100;
-        margin-bottom: 1rem;
+        padding-bottom: 1rem;
     }
 
     &-description {

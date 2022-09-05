@@ -71,26 +71,16 @@
         color: var(--clr-white);
         opacity: 50%;
         cursor: pointer;
-        text-decoration-line: underline;
-        text-underline-offset: 10px;
-        height: 10px; 
-    }
-
-    &-nav-link:active {
-        color: var(--clr-white);
-        cursor: pointer;
-        text-decoration-line: underline;
-        text-underline-offset: 10px;
-        height: 10px; 
+        border-bottom-style: solid;
+        padding-bottom: 10px; 
     }
 
     /* Active Item Destination*/
     &-active {
         color: var(--clr-white);
         cursor: pointer;
-        text-decoration-line: underline;
-        text-underline-offset: 10px;
-        height: 10px; 
+        border-bottom-style: solid;
+        padding-bottom: 10px;
     }
 
     &-title {
@@ -106,6 +96,7 @@
         color: var(--clr-light);
         font-size: 15px;
         line-height: 28px;
+        max-width: 20rem;
     }
 
     &-numbers {
