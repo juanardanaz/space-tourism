@@ -186,10 +186,57 @@
 
 /* For larger devices */
 @media screen and (min-width: 992px) {
+    .primary {
+        &-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 20rem;
+        }
 
+        &-container-data {
+            text-align: left;
+        }
+
+        &-subheading {
+            font-size: 28px;
+        }
+
+        &-title {
+            font-size: 150px;
+        }
+
+        &-description {
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: 1px;
+        }
+    }
 }
 
 
 @media screen and (min-width: 1440px) {
-    
+    .primary {
+        &-container{
+            justify-content: space-around;
+            top: 19rem;
+        }
+
+        &-button {
+            width: 274px;
+            height: 274px;
+            font-size: 32px;
+        }
+
+        &-line {
+            display: block;
+            width: 800px;
+            opacity: 25.15%;
+            border: 1px solid var(--clr-white);
+            transform: translateX(120px);
+            z-index: 1;
+        }
+    }
 }
