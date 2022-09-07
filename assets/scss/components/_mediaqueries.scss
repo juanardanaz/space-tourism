@@ -239,4 +239,61 @@
             z-index: 1;
         }
     }
+
+    .destination {
+        &-subheading {
+            margin-left: 10rem;
+        }
+
+        &-container {
+            position: relative;
+            top: 6rem;
+        }
+        
+        &-information {
+            flex-direction: row;
+            align-items: center;
+            gap: 10rem;
+        }
+
+        &-img {
+            width: 40%;
+        }
+
+        &-data-container {
+            text-align: left;
+        }
+
+        &-data {
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        &-navigation {
+            gap: 1.5rem;
+        }
+
+        &-nav-link {
+            letter-spacing: 2.7px;
+        }
+
+        &-title {
+            font-size: 100px;
+        }
+
+        &-description {
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: 1px;
+            max-width: 35rem;
+        }
+
+        &-line {
+            width: 534px;
+        }
+
+        &-numbers {
+            justify-content: flex-start;
+        }
+    }
 }

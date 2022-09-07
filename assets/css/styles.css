@@ -477,6 +477,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  justify-content: center;
 }
 .destination-line {
   width: 327px;
@@ -765,5 +766,48 @@ img {
     border: 1px solid var(--clr-white);
     transform: translateX(120px);
     z-index: 1;
+  }
+  .destination-subheading {
+    margin-left: 10rem;
+  }
+  .destination-container {
+    position: relative;
+    top: 6rem;
+  }
+  .destination-information {
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+  }
+  .destination-img {
+    width: 40%;
+  }
+  .destination-data-container {
+    text-align: left;
+  }
+  .destination-data {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .destination-navigation {
+    gap: 1.5rem;
+  }
+  .destination-nav-link {
+    letter-spacing: 2.7px;
+  }
+  .destination-title {
+    font-size: 100px;
+  }
+  .destination-description {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    max-width: 35rem;
+  }
+  .destination-line {
+    width: 534px;
+  }
+  .destination-numbers {
+    justify-content: flex-start;
   }
 }
