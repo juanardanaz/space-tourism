@@ -541,6 +541,7 @@ img {
   display: flex;
   gap: 1rem;
   padding-top: 2rem;
+  justify-content: center;
 }
 .technology-numbers-circle {
   border-radius: 50%;
@@ -555,6 +556,11 @@ img {
 .technology-numbers-circle:hover {
   border: 1px solid var(--clr-white);
   cursor: pointer;
+}
+.technology-numbers-circle:active {
+  border: 1px solid var(--clr-white);
+  color: var(--clr-dark);
+  background-color: var(--clr-white);
 }
 .technology-active {
   border: 1px solid var(--clr-white);
@@ -667,9 +673,9 @@ img {
   .crew-subheading-number {
     font-size: 20px;
   }
-  .crew-container {
+  .crew-navigation-data {
+    display: flex;
     flex-direction: column-reverse;
-    gap: 1rem;
   }
   .crew-photo {
     position: absolute;
@@ -770,6 +776,9 @@ img {
   .destination-subheading {
     margin-left: 10rem;
   }
+  .destination-subheading, .destination-subheading-number {
+    font-size: 28px;
+  }
   .destination-container {
     position: relative;
     top: 6rem;
@@ -809,5 +818,84 @@ img {
   }
   .destination-numbers {
     justify-content: flex-start;
+  }
+  .crew-subheading {
+    margin-left: 10rem;
+  }
+  .crew-subheading, .crew-subheading-number {
+    font-size: 28px;
+  }
+  .crew-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: -3rem;
+  }
+  .crew-photo {
+    position: relative;
+    bottom: 0;
+  }
+  .crew-img {
+    width: 100%;
+    height: auto;
+  }
+  .crew-navigation-data {
+    text-align: left;
+  }
+  .crew-navigation-list {
+    justify-content: flex-start;
+    gap: 1rem;
+    transform: translateY(6rem);
+  }
+  .crew-profile {
+    font-size: 32px;
+  }
+  .crew-name {
+    font-size: 56px;
+  }
+  .crew-description {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .crew-swiper-button {
+    width: 15px;
+    height: 15px;
+  }
+  .technology-subheading {
+    margin-left: 10rem;
+  }
+  .technology-subheading, .technology-subheading-number {
+    font-size: 28px;
+  }
+  .technology-container {
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 13rem;
+  }
+  .technology-data-container {
+    display: flex;
+    gap: 3rem;
+  }
+  .technology-numbers-container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .technology-numbers-circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    font-size: 32px;
+  }
+  .technology-info {
+    text-align: left;
+  }
+  .technology-title {
+    font-size: 56px;
+  }
+  .technology-description {
+    font-size: 18px;
+    line-height: 32px;
   }
 }

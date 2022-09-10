@@ -107,9 +107,9 @@
             font-size: 20px;
         }
 
-        &-container {
+        &-navigation-data {
+            display: flex;
             flex-direction: column-reverse;
-            gap: 1rem;
         }
 
         &-photo {
@@ -183,7 +183,6 @@
 
 }
 
-
 /* For larger devices */
 @media screen and (min-width: 992px) {
     .primary {
@@ -245,6 +244,11 @@
             margin-left: 10rem;
         }
 
+        &-subheading,
+        &-subheading-number {
+            font-size: 28px;
+        }
+
         &-container {
             position: relative;
             top: 6rem;
@@ -294,6 +298,111 @@
 
         &-numbers {
             justify-content: flex-start;
+        }
+    }
+
+    .crew {
+        &-subheading {
+            margin-left: 10rem;
+        }
+
+        &-subheading,
+        &-subheading-number {
+            font-size: 28px;
+        }
+
+        &-container {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            position: relative;
+            bottom: -3rem;
+        }
+
+        &-photo {
+            position: relative;
+            bottom: 0;
+        }
+
+        &-img {
+            width: 100%;
+            height: auto;
+        }
+
+        &-navigation-data {
+            text-align: left;
+        }
+
+        &-navigation-list {
+            justify-content: flex-start;
+            gap: 1rem;
+            transform: translateY(6rem);
+        }
+
+        &-profile {
+            font-size: 32px;
+        }
+
+        &-name {
+            font-size: 56px;
+        }
+
+        &-description {
+            font-size: 18px;
+            line-height: 32px;
+        }
+
+        &-swiper-button {
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .technology {
+        &-subheading {
+            margin-left: 10rem;
+        }
+
+        &-subheading,
+        &-subheading-number {
+            font-size: 28px;
+        }
+
+        &-container {
+            flex-direction: row-reverse;
+            justify-content: center;
+            gap: 13rem;
+        }
+
+        &-data-container {
+            display: flex;
+            gap: 3rem;
+        }
+
+        &-numbers-container {
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &-numbers-circle {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            padding: 20px;
+            font-size: 32px;
+        }
+
+        &-info {
+            text-align: left;
+        }
+
+        &-title {
+            font-size: 56px;
+        }
+
+        &-description {
+            font-size: 18px;
+            line-height: 32px;
         }
     }
 }

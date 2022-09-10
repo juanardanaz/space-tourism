@@ -41,6 +41,7 @@
         display: flex;
         gap: 1rem;
         padding-top: 2rem;
+        justify-content: center;
     }
 
     &-numbers-circle {
@@ -57,6 +58,12 @@
     &-numbers-circle:hover {
         border: 1px solid var(--clr-white);
         cursor: pointer;
+    }
+
+    &-numbers-circle:active {
+        border: 1px solid var(--clr-white);
+        color: var(--clr-dark);
+        background-color: var(--clr-white);
     }
 
     /* Active Item Technology*/
