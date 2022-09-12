@@ -789,7 +789,7 @@ img {
     gap: 10rem;
   }
   .destination-img {
-    width: 40%;
+    width: 100%;
   }
   .destination-data-container {
     text-align: left;
@@ -829,8 +829,10 @@ img {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    position: relative;
-    bottom: -3rem;
+    position: fixed;
+    bottom: 0;
+    gap: 10rem;
+    transform: translate(30%, 0);
   }
   .crew-photo {
     position: relative;
@@ -857,6 +859,7 @@ img {
   .crew-description {
     font-size: 18px;
     line-height: 32px;
+    max-width: 27rem;
   }
   .crew-swiper-button {
     width: 15px;
@@ -872,6 +875,7 @@ img {
     flex-direction: row-reverse;
     justify-content: center;
     gap: 13rem;
+    transform: translateY(5rem);
   }
   .technology-data-container {
     display: flex;

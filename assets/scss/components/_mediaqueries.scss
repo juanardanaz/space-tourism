@@ -261,7 +261,7 @@
         }
 
         &-img {
-            width: 40%;
+            width: 100%;
         }
 
         &-data-container {
@@ -315,8 +315,10 @@
             display: flex;
             flex-direction: row-reverse;
             justify-content: space-evenly;
-            position: relative;
-            bottom: -3rem;
+            position: fixed;
+            bottom: 0;
+            gap: 10rem;
+            transform: translate(30%, 0);
         }
 
         &-photo {
@@ -350,6 +352,7 @@
         &-description {
             font-size: 18px;
             line-height: 32px;
+            max-width: 27rem;
         }
 
         &-swiper-button {
@@ -372,6 +375,7 @@
             flex-direction: row-reverse;
             justify-content: center;
             gap: 13rem;
+            transform: translateY(5rem);
         }
 
         &-data-container {
