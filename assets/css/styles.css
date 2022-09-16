@@ -634,6 +634,11 @@ img {
     border-bottom-width: 3.1px;
     width: fit-content;
   }
+  .primary-nav-active {
+    border-bottom-style: solid;
+    width: fit-content;
+    padding-bottom: 30px;
+  }
   .destination-subheading {
     text-align: left;
     font-size: 20px;
