@@ -772,17 +772,24 @@ img {
   }
   .primary-line {
     display: block;
-    width: 800px;
+    width: 80%;
     opacity: 25.15%;
     border: 1px solid var(--clr-white);
-    transform: translateX(120px);
+    transform: translateX(86px);
     z-index: 1;
+  }
+  .primary-title {
+    font-size: 170px;
+  }
+  .primary-description {
+    max-width: 31rem;
   }
   .destination-subheading {
     margin-left: 10rem;
   }
   .destination-subheading, .destination-subheading-number {
     font-size: 28px;
+    transform: translateY(40px);
   }
   .destination-container {
     position: relative;
@@ -791,7 +798,8 @@ img {
   .destination-information {
     flex-direction: row;
     align-items: center;
-    gap: 10rem;
+    gap: 12rem;
+    transform: translateY(40px);
   }
   .destination-img {
     width: 100%;
@@ -829,6 +837,7 @@ img {
   }
   .crew-subheading, .crew-subheading-number {
     font-size: 28px;
+    transform: translateY(40px);
   }
   .crew-container {
     display: flex;
@@ -836,8 +845,8 @@ img {
     justify-content: space-evenly;
     position: fixed;
     bottom: 0;
-    gap: 10rem;
-    transform: translate(30%, 0);
+    gap: 18rem;
+    transform: translate(12%, 0);
   }
   .crew-photo {
     position: relative;
@@ -875,12 +884,13 @@ img {
   }
   .technology-subheading, .technology-subheading-number {
     font-size: 28px;
+    transform: translateY(40px);
   }
   .technology-container {
     flex-direction: row-reverse;
     justify-content: center;
     gap: 13rem;
-    transform: translateY(5rem);
+    transform: translateY(6rem);
   }
   .technology-data-container {
     display: flex;

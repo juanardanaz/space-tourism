@@ -238,11 +238,19 @@
 
         &-line {
             display: block;
-            width: 800px;
+            width: 80%;
             opacity: 25.15%;
             border: 1px solid var(--clr-white);
-            transform: translateX(120px);
+            transform: translateX(86px);
             z-index: 1;
+        }
+
+        &-title {
+            font-size: 170px;
+        }
+
+        &-description {
+            max-width: 31rem;
         }
     }
 
@@ -254,6 +262,7 @@
         &-subheading,
         &-subheading-number {
             font-size: 28px;
+            transform: translateY(40px);
         }
 
         &-container {
@@ -264,7 +273,8 @@
         &-information {
             flex-direction: row;
             align-items: center;
-            gap: 10rem;
+            gap: 12rem;
+            transform: translateY(40px);
         }
 
         &-img {
@@ -316,6 +326,7 @@
         &-subheading,
         &-subheading-number {
             font-size: 28px;
+            transform: translateY(40px);
         }
 
         &-container {
@@ -324,8 +335,8 @@
             justify-content: space-evenly;
             position: fixed;
             bottom: 0;
-            gap: 10rem;
-            transform: translate(30%, 0);
+            gap: 18rem;
+            transform: translate(12%, 0);
         }
 
         &-photo {
@@ -376,13 +387,14 @@
         &-subheading,
         &-subheading-number {
             font-size: 28px;
+            transform: translateY(40px);
         }
 
         &-container {
             flex-direction: row-reverse;
             justify-content: center;
             gap: 13rem;
-            transform: translateY(5rem);
+            transform: translateY(6rem);
         }
 
         &-data-container {
